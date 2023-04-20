@@ -8,5 +8,4 @@ jobs:
       - name: ZAP Scan
         uses: zaproxy/action-baseline@0f996ec4f11cb9e0e9fa603f4d9567fe17dc9454
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
           target: 'https://532corp.hackerville.org/'
